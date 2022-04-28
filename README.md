@@ -11,7 +11,7 @@ Sample request
 }
 ```
 
->   ... where "qty" is the number of shares desired and "prc" is the amount user will pay for each share
+> where "qty" is the number of shares desired and "prc" is the amount user will pay for each share
 
 `POST /sell`
 
@@ -23,7 +23,7 @@ Sample request
 }
 ```
 
->   ... where "qty" is the number of shares willing to sell and "prc" is the amount user is asking for each share
+> where "qty" is the number of shares willing to sell and "prc" is the amount user is asking for each share
 
 `GET /book`
 
@@ -36,7 +36,7 @@ Sample response
 }
 ```
 
-> ... where the remaining portion of each buy and sell from each unmatched order are returned, in sorted order; the buys in descending order by price and the sells in ascending order by price
+> where the remaining portion of each buy and sell from each unmatched order are returned, in sorted order; the buys in descending order by price and the sells in ascending order by price
 
 Stacks used:
 - `Express`
