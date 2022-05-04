@@ -7,8 +7,8 @@ This engine has 3 endpoints:
 Sample request
 ```json
 {
-	"quantity": "INTEGER_NUMBER",
-	"price": "DECIMAL_NUMBER"
+	"qty": "INTEGER_NUMBER",
+	"prc": "DECIMAL_NUMBER"
 }
 ```
 
@@ -19,8 +19,8 @@ Sample request
 Sample request
 ```json
 {
-	"quantity": "INTEGER_NUMBER",
-	"price": "DECIMAL_NUMBER"
+	"qty": "INTEGER_NUMBER",
+	"prc": "DECIMAL_NUMBER"
 }
 ```
 
